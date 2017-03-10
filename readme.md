@@ -15,9 +15,8 @@ To add this module to a project, the author needs to run the following once:
 git submodule add git@github.com:florey-health/git-hooks.git hooks
 ```
 
-If the hooks project is updated, you can update it in your own repo using the following:
+If this repo is updated, you need to update the submodule in the parent repo. You can update by doing the following:
 
-Update submodule - required if this repo is updated:
 ```
 cd hooks
 git pull
@@ -28,13 +27,13 @@ Once added to a repo or updated, you will need to install it...
 
 ## Install in repo instance
 
-Even when a project contain this repo as a submodule, it won't take effect until it is installed.
+Even when a project contains this submodule, it won't take effect until the scripts are copied to your `.git/hooks` folder.
 
-To install it, run the following after cloning the repo:
+To install it, run the following once:
 
 ```
 # Ensure submodule is pulled down
 git submodule update --init --recursive
-# Copy scripts into git repo
+# Copy scripts into .git/hooks
 hooks/install.sh
 ```
