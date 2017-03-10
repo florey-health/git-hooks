@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SRC="./hooks"
-DEST="./.git/hooks"
+SRC="./hooks/"
+DEST="./.git/hooks/"
 
 if [ -d "$DEST" ]; then
   if [ -d "$SRC" ]; then
