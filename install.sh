@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEST="../.git/hooks"
+DEST=".git/hooks"
 
 if [ -d "$DEST" ]; then
   cp * $DEST
