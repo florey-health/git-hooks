@@ -12,14 +12,14 @@ The collection includes:
 ## Via NPM
 
 ```
-npm i florey-health:git-hooks --save
+npm i florey-health/git-hooks --save
 ```
 
 Add to `package.json`:
 
 ```
 scripts: {
-    'postinstall': 'init-git-hooks'
+    "postinstall": "init-git-hooks"
 }
 
 
