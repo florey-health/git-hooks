@@ -1,0 +1,15 @@
+{
+  "name": "git-hooks",
+  "version": "1.0.0",
+  "description": "A collection of Git hooks to make your development life easier.",
+  "bin": {
+    "init-git-hooks": "bin/install.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florey-health/git-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/florey-health/git-hooks/issues"
+  }
+}
