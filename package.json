@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A collection of Git hooks to make your development life easier.",
   "bin": {
-    "init-git-hooks": "bin/install.sh"
+    "init-git-hooks": "bin/install-npm.sh"
   },
   "repository": {
     "type": "git",

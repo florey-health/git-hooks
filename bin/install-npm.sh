@@ -2,21 +2,16 @@
 
 DEST="$( pwd )/.git/hooks/"
 
-cd "$( dirname "${BASH_SOURCE[0]}" )"
-
-if [ -d "../hooks" ]; then
-  cd "../hooks/"
+if [ -d "$PWD/node_modules/git-hooks/hooks" ]; then
+  cd "./node_modules/git-hooks/hooks"
 else
   echo "Error: unable to find hooks"
   exit
 fi
 
-echo $( pwd )
-echo "${SRC}"
-
 if [ -d "$DEST" ]; then
   cp * $DEST
   echo "Installed Git hooks (copied to .git/hooks directory)"
 else
-  echo "unable to find .git directory"
+  echo "Unable to find .git directory"
 fi
