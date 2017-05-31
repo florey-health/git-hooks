@@ -21,7 +21,7 @@ Add to `package.json`:
 scripts: {
     "postinstall": "init-git-hooks"
 }
-
+```
 
 
 ## Via Git submodules
