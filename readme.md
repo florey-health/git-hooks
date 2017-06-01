@@ -18,7 +18,7 @@ npm i florey-health/git-hooks --save
 Add to `package.json`:
 
 ```
-scripts: {
+"scripts": {
     "postinstall": "init-git-hooks"
 }
 ```
