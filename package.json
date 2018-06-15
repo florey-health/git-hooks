@@ -1,6 +1,6 @@
 {
   "name": "git-hooks",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A collection of Git hooks to make your development life easier.",
   "bin": {
     "init-git-hooks": "bin/install-npm.sh"
